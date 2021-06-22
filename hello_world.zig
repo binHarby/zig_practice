@@ -1,6 +1,6 @@
-const std =@import("std");
-
+const std = @import("std");
 
 pub fn main() void {
-std.debug.print("Hello, World!\n", .{});
+    var x: i32 = 50;
+    std.debug.print("x: {}\n", .{x});
 }
